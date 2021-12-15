@@ -25,10 +25,6 @@ public class UserController {
         this.roleService = roleService;
     }
 
-//    @GetMapping("/")
-//    public String getHomePage() {
-//        return "home-page";
-//    }
 
     @GetMapping("/login")
     public String login() {
